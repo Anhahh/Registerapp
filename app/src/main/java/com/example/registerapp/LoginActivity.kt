@@ -10,12 +10,12 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        // Tìm TextView bằng ID từ layout
+
         val btn: TextView = findViewById(R.id.textViewSignUp)
 
-        // Thiết lập listener cho sự kiện click
+    
         btn.setOnClickListener {
-            // Khởi tạo Intent để chuyển đến RegisterActivity
+          
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
