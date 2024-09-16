@@ -15,9 +15,9 @@ class RegisterActivity : AppCompatActivity() {
      
         val btn: TextView = findViewById(R.id.alreadyHaveAccount)
 
-        // Thiết lập listener cho sự kiện click
+        
         btn.setOnClickListener {
-            // Khởi tạo Intent để chuyển đến LoginActivity
+            
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
