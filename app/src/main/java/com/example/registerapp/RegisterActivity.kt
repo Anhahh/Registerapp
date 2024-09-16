@@ -12,7 +12,7 @@ class RegisterActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_register)
 
-        // Tìm TextView bằng ID từ layout
+     
         val btn: TextView = findViewById(R.id.alreadyHaveAccount)
 
         // Thiết lập listener cho sự kiện click
